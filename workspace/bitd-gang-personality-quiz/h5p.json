@@ -1,1 +1,16 @@
-{"title":"Personality Quiz","language":"und","mainLibrary":"H5P.PersonalityQuiz","embedTypes":["div"],"license":"U","preloadedDependencies":[{"machineName":"H5P.PersonalityQuiz","majorVersion":"1","minorVersion":"0"}]}
+{
+  "title": "Blades in the Dark - Gang Personality Quiz",
+  "language": "fr",
+  "mainLibrary": "H5P.PersonalityQuiz",
+  "embedTypes": [
+    "div"
+  ],
+  "license": "CC0",
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.PersonalityQuiz",
+      "majorVersion": "1",
+      "minorVersion": "0"
+    }
+  ]
+}
