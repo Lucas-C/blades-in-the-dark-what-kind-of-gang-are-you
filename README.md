@@ -1,4 +1,4 @@
-<https://lucas-c.github.io/Lucas-C/blades-in-the-dark-what-kind-of-gang-are-you/demo/>
+<https://lucas-c.github.io/blades-in-the-dark-what-kind-of-gang-are-you/demo/>
 
 ## Run It (Gulp)
 
