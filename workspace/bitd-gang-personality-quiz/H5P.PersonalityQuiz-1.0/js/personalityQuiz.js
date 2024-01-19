@@ -759,6 +759,8 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       });
 
       height = Math.max(height, minimumHeight);
+      // Lucas on 2024/01/19: forcing bigger height
+      height = window.innerHeight - 30;
 
       $quiz.height(height);
 

@@ -1,5 +1,9 @@
 <https://lucas-c.github.io/blades-in-the-dark-what-kind-of-gang-are-you/demo/>
 
+Based on <https://github.com/tunapanda/h5p-standalone/tree/1.3.x>
+
+Template H5P: <https://h5p.org/personality-quiz>
+
 ## Run It (Gulp)
 
 ### Prerequisites
