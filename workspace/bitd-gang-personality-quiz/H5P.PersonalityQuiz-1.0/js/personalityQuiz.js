@@ -445,14 +445,15 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
           'class': classes('button', 'image-answer-button'),
           'html': answer.text
         });
+        $button.click(listener);
 
         $image = $('<div>', {
           'class': classes('image-answer-image')
         });
         $image.css('background-image', 'url(' + path + ')');
+        $image.click(() => window.open(path, '_blank'));
 
         $answer.append($image, $button);
-        $answer.click(listener);
 
         return $answer;
       });

@@ -235,7 +235,7 @@ button.h5p-personality-quiz {
 .h5p-personality-quiz .h5p-personality-quiz-image-answer-image {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-radius: 5px 5px 0 0;
 }
 
