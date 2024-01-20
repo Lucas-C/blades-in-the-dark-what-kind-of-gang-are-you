@@ -23,175 +23,133 @@
   "startText": "Démarrer",
   "questions": [
     {
+      "text": "<b>Mauvais recrutement</b> : qui était-ce et que s'est-il passé ?",
       "image": {},
       "answers": [
         {
           "image": {
             "file": {
-              "path": "images/file-57a07ee9b00a9.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U"
-              },
-              "width": 500,
-              "height": 331
+              "path": "images/bad-recruit/KickAssLady.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 825,
+              "height": 899
             }
           },
-          "text": "Somewhere cold",
+          "text": "Lucy",
           "personality": "blueberry,cloudberry"
         },
         {
           "image": {
             "file": {
-              "path": "images/file-57a07ef4db1e8.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U"
-              },
-              "width": 500,
-              "height": 333
+              "path": "images/bad-recruit/PeterBrom.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 358,
+              "height": 656
             }
           },
-          "text": "Somewhere warm",
+          "text": "Peter",
+          "personality": "strawberry, blueberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/Gilles.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "text": "Giles",
+          "personality": "strawberry, blueberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/Silas.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 1284,
+              "height": 1249
+            }
+          },
+          "text": "Silas",
           "personality": "strawberry, blueberry"
         }
-      ],
-      "text": "Which part of the world do you prefer"
+      ]
     },
     {
+      "text": "Quelle distraction avez-vous dû interdire, et pourquoi ?",
       "image": {},
       "answers": [
         {
-          "image": {},
-          "text": "Carbohydrates",
+          "image": {
+            "file": {
+              "path": "images/games/dice.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 564,
+              "height": 396
+            }
+          },
+          "text": "Les jeux de dés",
           "personality": "blueberry"
         },
         {
-          "image": {},
-          "text": "Protein",
+          "image": {
+            "file": {
+              "path": "images/games/arm-wrestling.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 512,
+              "height": 512
+            }
+          },
+          "text": "Les bras de fer",
           "personality": "Cloudberry"
         },
         {
-          "image": {},
-          "text": "Fat",
+          "image": {
+            "file": {
+              "path": "images/games/fantasy-art-playing-cards-wallpaper.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 1920,
+              "height": 1358
+            }
+          },
+          "text": "Les jeux de cartes",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/games/knife-throwing.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 564,
+              "height": 805
+            }
+          },
+          "text": "Le lancer de couteaux",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/games/3_Assassins_Creed_Syndicate_Concept_Art_FA_FightClub_001b.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" },
+              "width": 1221,
+              "height": 600
+            }
+          },
+          "text": "Les paris sur les combats",
           "personality": "Cloudberry"
         }
-      ],
-      "text": "What is most important for you nutrition-wise?"
-    },
-    {
-      "image": {},
-      "answers": [
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a081849c1e5.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "PD",
-                "title": "Ball-and-stick model of the L-ascorbic acid (vitamin C) molecule, C6H8O6, as found in the crystal structure",
-                "author": "Ben Mills",
-                "source": "https://commons.wikimedia.org/wiki/File:Ascorbic-acid-from-xtal-1997-3D-balls.png"
-              },
-              "width": 220,
-              "height": 172
-            },
-            "alt": "Space-filling model of the folic acid molecule, a B vitamin and an important compound in cell division"
-          },
-          "text": "Vitamin C",
-          "personality": "cloudberry"
-        },
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a0819f7b07c.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U",
-                "title": "Space-filling model of the folic acid molecule, a B vitamin and an important compound in cell division",
-                "author": "Jynto",
-                "source": "https://commons.wikimedia.org/wiki/File:Folic-acid-3D-spacefill.png"
-              },
-              "width": 250,
-              "height": 141
-            },
-            "alt": "Space-filling model of the folic acid molecule, a B vitamin and an important compound in cell division"
-          },
-          "text": "Folate",
-          "personality": "Strawberry"
-        },
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a1b3dc34ed5.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "PD",
-                "source": "https://commons.wikimedia.org/wiki/File:Phylloquinone_structure.svg",
-                "title": "Chemical structure of phylloquinone (Vitamin K).",
-                "author": "https://en.wikipedia.org/wiki/User:Mysid"
-              },
-              "width": 320,
-              "height": 151
-            },
-            "alt": "Chemical structure of phylloquinone (Vitamin K)."
-          },
-          "text": "Vitamin K",
-          "personality": "blueberry"
-        }
-      ],
-      "text": "Which vitamins would you like to offer?"
-    },
-    {
-      "image": {},
-      "answers": [
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a07ecf78758.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U"
-              },
-              "width": 52,
-              "height": 55
-            }
-          },
-          "text": "Blue",
-          "personality": "blueberry"
-        },
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a07ed4d2377.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U"
-              },
-              "width": 53,
-              "height": 48
-            }
-          },
-          "text": "Red",
-          "personality": "strawberry"
-        },
-        {
-          "image": {
-            "file": {
-              "path": "images/file-57a07edd4371a.png",
-              "mime": "image/png",
-              "copyright": {
-                "license": "U"
-              },
-              "width": 73,
-              "height": 70
-            }
-          },
-          "text": "Orange",
-          "personality": "cloudberry"
-        }
-      ],
-      "text": "What color do you prefer?"
+      ]
     }
   ],
   "personalities": [
