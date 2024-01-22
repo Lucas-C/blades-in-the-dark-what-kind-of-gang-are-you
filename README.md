@@ -13,7 +13,11 @@ Contributions are welcome to:
 * add translations (new `workspace/bitd-gang-personality-quiz/content/content-$lang.json` files)
 * add new _Blades in the Dark_ quizzes (you can copy `workspace/bitd-gang-personality-quiz/` into another directory and then edit `content-$lang.json` directly, or else edit the `.h5p` file using a H5P editor like [Lumi](https://app.lumi.education/))
 
-## Generate a .h5p file
+## The .h5p file
+
+A version from January 2024 is available there: [bitd-gang-personality-quiz.h5p](https://github.com/Lucas-C/blades-in-the-dark-what-kind-of-gang-are-you/raw/main/bitd-gang-personality-quiz.h5p).
+
+It can be rebuilt from the sources by running those commands:
 
     cd workspace/bitd-gang-personality-quiz/
     zip -r ../../bitd-gang-personality-quiz.h5p .

@@ -14,12 +14,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-      - name: Build .h5p file
-        run: |
-          cd workspace/bitd-gang-personality-quiz/
-          zip -r ../../bitd-gang-personality-quiz.h5p .
-      - name: Archive .h5p file as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: bitd-gang-personality-quiz
-          path: bitd-gang-personality-quiz.h5p
+
+      # Disabled because a link cannot be provided to the latest GA artifact:
+      # - name: Build .h5p file
+      #   run: |
+      #     cd workspace/bitd-gang-personality-quiz/
+      #     zip -r ../../bitd-gang-personality-quiz.h5p .
+      # - name: Archive .h5p file as artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: bitd-gang-personality-quiz
+      #     path: bitd-gang-personality-quiz.h5p
