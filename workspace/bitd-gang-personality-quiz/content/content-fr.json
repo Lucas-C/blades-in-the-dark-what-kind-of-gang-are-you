@@ -86,7 +86,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Quelle distraction avez-vous dû interdire, et pourquoi ?",
@@ -158,7 +159,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Comment vous débarrassez-vous des cadavres ?",
@@ -179,7 +181,8 @@
           "text": "On laisse des professionnels s'en charger",
           "personality": "Businessmen"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Laquelle de ces brutes envisageriez-vous de recruter ?",
@@ -256,7 +259,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Comment obtenez-vous vos renseignements ?",
@@ -277,7 +281,8 @@
           "text": "Vous employez les meilleurs dans ce domaine : <em>The Wraiths</em>",
           "personality": "Businessmen"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Quelle est cette étrange boutique sur votre territoire ?",
@@ -358,7 +363,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Comment gérez-vous les témoins gênants ?",
@@ -379,7 +385,8 @@
           "text": "<b>Sans pitié</b> : on ne laisse <u>jamais</u> de témoin vivant",
           "personality": "Invisibles"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "<b>Mauvais recrutement</b> : qui était-ce et que s'est-il passé ?",
@@ -428,7 +435,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "À quoi ressemble le pub sous votre protection, et quelles surprises recèle-t-il ?",
@@ -524,25 +532,30 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     }
   ],
   "personalities": [
     {
       "name": "Businessmen",
-      "description": "Vous n'avez ni morale ni sentiments. Vous êtes efficaces et sans scrupules. L'important c'est que les affaires restent florissantes."
+      "description": "Vous n'avez ni morale ni sentiments. Vous êtes efficaces et sans scrupules. L'important c'est que les affaires restent florissantes.",
+      "image": {}
     },
     {
       "name": "Populaires",
-      "description": "Vous savez cultiver la confiance de la population des bas-fonds, qui vous préfère aux forces de l'ordre pour régler leurs problèmes. Parfois, votre sens moral de la justice sociale prend le dessus, et passe avant l'intérêt du gang."
+      "description": "Vous savez cultiver la confiance de la population des bas-fonds, qui vous préfère aux forces de l'ordre pour régler leurs problèmes. Parfois, votre sens moral de la justice sociale prend le dessus, et passe avant l'intérêt du gang.",
+      "image": {}
     },
     {
       "name": "Invisibles",
-      "description": "Vous ne laissez jamais une seule trace, et personne ne sait vraiment à quoi vous ressemblez. Vous cultivez le secret et tirez les ficelles dans l'ombre."
+      "description": "Vous ne laissez jamais une seule trace, et personne ne sait vraiment à quoi vous ressemblez. Vous cultivez le secret et tirez les ficelles dans l'ombre.",
+      "image": {}
     },
     {
       "name": "Terrifiants",
-      "description": "Ouvriers, <em>Bluecoats</em>, gangs rivaux... Tous tremblent en entendant votre nom. On raconte les pires atrocités sur vous et votre absence d'humanité. Et le pire, c'est que la plupart de ces rumeurs sont vraies..."
+      "description": "Ouvriers, <em>Bluecoats</em>, gangs rivaux... Tous tremblent en entendant votre nom. On raconte les pires atrocités sur vous et votre absence d'humanité. Et le pire, c'est que la plupart de ces rumeurs sont vraies...",
+      "image": {}
     }
   ],
   "resultScreen": {

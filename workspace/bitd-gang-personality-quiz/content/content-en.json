@@ -86,7 +86,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "What distraction have you had to ban, and why?",
@@ -158,7 +159,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "How do you dispose of dead bodies?",
@@ -179,7 +181,8 @@
           "text": "We let professionals take care of it",
           "personality": "Businessmen"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "Which of these bullies would you consider recruiting?",
@@ -256,7 +259,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "How do you obtain your information?",
@@ -277,7 +281,8 @@
           "text": "You employ the best in this field: <em>The Wraiths</em>",
           "personality": "Businessmen"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "What is this strange store in your territory?",
@@ -358,7 +363,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "<b>Bad recruitment</b> : who was it and what happened?",
@@ -407,7 +413,8 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "How do you deal with annoying witnesses?",
@@ -428,7 +435,8 @@
           "text": "<b>No mercy</b>: we <u>never</u> leave a living witness",
           "personality": "Invisibles"
         }
-      ]
+      ],
+      "image": {}
     },
     {
       "text": "What is the pub under your protection like, and what surprises does it hold?",
@@ -524,25 +532,30 @@
             }
           }
         }
-      ]
+      ],
+      "image": {}
     }
   ],
   "personalities": [
     {
       "name": "Businessmen",
-      "description": "You have no morals or feelings. You are efficient and unscrupulous. The important thing is that business remains booming."
+      "description": "You have no morals or feelings. You are efficient and unscrupulous. The important thing is that business remains booming.",
+      "image": {}
     },
     {
       "name": "Popular",
-      "description": "You know how to cultivate the trust of the population of the lowlands, who prefer you to the police to solve their problems. Sometimes your moral sense of social justice takes over, and comes before the interests of the gang."
+      "description": "You know how to cultivate the trust of the population of the lowlands, who prefer you to the police to solve their problems. Sometimes your moral sense of social justice takes over, and comes before the interests of the gang.",
+      "image": {}
     },
     {
       "name": "Invisibles",
-      "description": "You never leave a single trace, and no one really knows what you look like. You cultivate secrecy and pull the strings in the shadows."
+      "description": "You never leave a single trace, and no one really knows what you look like. You cultivate secrecy and pull the strings in the shadows.",
+      "image": {}
     },
     {
       "name": "Terrifying",
-      "description": "Workers, <em>Bluecoats</em>, rival gangs... Everyone trembles when they hear your name. The worst atrocities are being said about you and your lack of humanity. And the worst part is that most of these rumors are true..."
+      "description": "Workers, <em>Bluecoats</em>, rival gangs... Everyone trembles when they hear your name. The worst atrocities are being said about you and your lack of humanity. And the worst part is that most of these rumors are true...",
+      "image": {}
     }
   ],
   "resultScreen": {
