@@ -5,13 +5,13 @@ This is a [H5P](https://h5p.org) personality quiz for _Blades in the Dark_ TTRPG
 * invite players to do some world-building, with open-ended questions
 * provide some visuals to build up some shared imaginary
 
-It's based on <https://github.com/tunapanda/h5p-standalone/tree/1.3.x>
+It's based on <https://github.com/tunapanda/h5p-standalone/tree/1.3.x> for self-hosting the H5P content.
 
-H5P template used: <https://h5p.org/personality-quiz>
+The H5P template used to build the quiz: <https://h5p.org/personality-quiz>
 
 Contributions are welcome to:
-* add translations (new `workspace/bitd-gang-personality-quiz/content/content-$lang.json` files)
-* add new _Blades in the Dark_ quizzes (you can copy `workspace/bitd-gang-personality-quiz/` into another directory and then edit `content-$lang.json` directly, or else edit the `.h5p` file using a H5P editor like [Lumi](https://app.lumi.education/))
+* **add translations**: in new `workspace/bitd-gang-personality-quiz/content/content-$lang.json` files
+* **add new _Blades in the Dark_ quizzes**: you can copy `workspace/bitd-gang-personality-quiz/` into another directory and then edit `content-$lang.json` directly, or else edit the `.h5p` file using a H5P editor like [Lumi](https://app.lumi.education/)
 
 ## The .h5p file
 
