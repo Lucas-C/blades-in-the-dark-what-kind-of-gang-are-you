@@ -136,9 +136,18 @@ button.h5p-personality-quiz {
 
 .h5p-personality-quiz .h5p-personality-quiz-start-button-wrapper {
   position: absolute;
-  top: 75%;
+  top: 50%;
   width: 100%;
   text-align: center;
+}
+
+.h5p-personality-quiz .h5p-personality-quiz-start-description {
+  font-size: .9rem;
+  max-width: 36rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  background: rgb(233, 239, 247, .75);
+  border-radius: 1rem;
 }
 
 .h5p-personality-quiz .h5p-personality-quiz-question {
