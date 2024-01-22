@@ -2,7 +2,7 @@
   "titleScreen": {
     "title": {
       "display": true,
-      "text": "What type of gang do you lead?"
+      "text": "Quel type de gang dirigez-vous ?"
     },
     "image": {
       "file": {
@@ -18,10 +18,10 @@
     },
     "skip": false
   },
-  "startText": "Start",
+  "startText": "Démarrer",
   "questions": [
     {
-      "text": "<b>Bad recruitment</b> : who was it and what happened?",
+      "text": "<b>Mauvais recrutement</b> : qui était-ce et que s'est-il passé ?",
       "image": {},
       "answers": [
         {
@@ -71,11 +71,11 @@
       ]
     },
     {
-      "text": "What distraction have you had to ban, and why?",
+      "text": "Quelle distraction avez-vous dû interdire, et pourquoi ?",
       "image": {},
       "answers": [
         {
-          "text": "Dice games",
+          "text": "Les jeux de dés",
           "personality": "blueberry",
           "image": {
             "file": {
@@ -86,7 +86,7 @@
           }
         },
         {
-          "text": "Arm wrestling",
+          "text": "Les bras de fer",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -97,7 +97,7 @@
           }
         },
         {
-          "text": "Card games",
+          "text": "Les jeux de cartes",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -111,7 +111,7 @@
           }
         },
         {
-          "text": "Knife throwing",
+          "text": "Le lancer de couteaux",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -126,7 +126,7 @@
           }
         },
         {
-          "text": "Pit fights",
+          "text": "Les paris sur les combats",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "text": "What is this strange store in your territory?",
+      "text": "Quelle est cette étrange boutique sur votre territoire ?",
       "image": {},
       "answers": [
         {
@@ -179,7 +179,7 @@
           }
         },
         {
-          "text": "The Chiropterus",
+          "text": "Le Chiroptère",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -193,7 +193,7 @@
           }
         },
         {
-          "text": "A newspaper seller",
+          "text": "Un vendeur de journaux",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -209,7 +209,7 @@
           }
         },
         {
-          "text": "The abandoned apothecary shop",
+          "text": "La boutique d'apothicaire abandonnée",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -226,11 +226,11 @@
       ]
     },
     {
-      "text": "What is the pub under your protection like, and what surprises does it hold?",
+      "text": "À quoi ressemble le pub sous votre protection, et quelles surprises recèle-t-il ?",
       "image": {},
       "answers": [
         {
-          "text": "<em>Choice 1</em>",
+          "text": "<em>Choix 1</em>",
           "personality": "blueberry",
           "image": {
             "file": {
@@ -246,7 +246,7 @@
           }
         },
         {
-          "text": "<em>Choice 2</em>",
+          "text": "<em>Choix 2</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -260,7 +260,7 @@
           }
         },
         {
-          "text": "<em>Choice 3</em>",
+          "text": "<em>Choix 3</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -276,7 +276,7 @@
           }
         },
         {
-          "text": "<em>Choice 4</em>",
+          "text": "<em>Choix 4</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -290,7 +290,7 @@
           }
         },
         {
-          "text": "<em>Choice 5</em>",
+          "text": "<em>Choix 5</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -306,7 +306,7 @@
           }
         },
         {
-          "text": "<em>Choice 6</em>",
+          "text": "<em>Choix 6</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "text": "Which of these bullies would you consider recruiting?",
+      "text": "Laquelle de ces brutes envisageriez-vous de recruter ?",
       "image": {},
       "answers": [
         {
@@ -401,11 +401,11 @@
       ]
     },
     {
-      "text": "What does your gang look like, ready for action?",
+      "text": "À quoi ressemble votre gang, paré à l'action ?",
       "image": {},
       "answers": [
         {
-          "text": "<em>Choice 1</em>",
+          "text": "<em>Choix 1</em>",
           "personality": "blueberry",
           "image": {
             "file": {
@@ -421,7 +421,7 @@
           }
         },
         {
-          "text": "<em>Choice 2</em>",
+          "text": "<em>Choix 2</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -436,7 +436,7 @@
           }
         },
         {
-          "text": "<em>Choice 3</em>",
+          "text": "<em>Choix 3</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -452,7 +452,7 @@
           }
         },
         {
-          "text": "<em>Choice 4</em>",
+          "text": "<em>Choix 4</em>",
           "personality": "Cloudberry",
           "image": {
             "file": {
@@ -517,8 +517,8 @@
     "displayDescription": true,
     "imagePosition": "background"
   },
-  "progressText": "@question of @total",
-  "retakeText": "Retake the quiz",
+  "progressText": "@question sur @total",
+  "retakeText": "Refaire le quiz",
   "animation": false,
   "buttonColor": "4D5DAA",
   "progressbarColor": "38B755"

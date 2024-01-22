@@ -1,4 +1,4 @@
-<https://lucas-c.github.io/blades-in-the-dark-what-kind-of-gang-are-you/demo/>
+<https://lucas-c.github.io/blades-in-the-dark-what-kind-of-gang-are-you/>
 
 This is a [H5P](https://h5p.org) personality quiz for _Blades in the Dark_ TTRPG players, that aims to:
 * guide players to define some aspects of their gang, with closed-ended questions

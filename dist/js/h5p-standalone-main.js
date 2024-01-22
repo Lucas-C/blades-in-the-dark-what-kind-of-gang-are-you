@@ -9270,6 +9270,7 @@ function _arrayWithHoles(arr) {
       h5pDescription: "Visit H5P.org to check out more cool content.",
       hideAdvanced: "Hide advanced",
       license: "License",
+      licenseU: "Unknown",
       noCopyrights: "No copyright information available for this content.",
       showAdvanced: "Show advanced",
       showLess: "Show less",
@@ -9289,9 +9290,10 @@ function _arrayWithHoles(arr) {
     var displayOptions = arguments.length > 2 ? arguments[2] : undefined;
     H5PIntegration.url = "".concat(pathToContent);
     var getInfo = getJSONPromise("".concat(pathToContent, "/h5p.json"));
-    var getContent = getJSONPromise("".concat(pathToContent, "/content/content.json"));
+    var docLang = document.documentElement.lang;
+    var jsonFileName = docLang ? `content-${docLang}.json` : "content.json";
+    var getContent = getJSONPromise("".concat(pathToContent, `/content/${jsonFileName}`));
     var machinePath;
-    var pathIncludesVersion = true;
     var checklibraryPath = getInfo.then(function (h5p) {
       var dependency = h5p.preloadedDependencies[0];
       machinePath = dependency.machineName + "-" + dependency.majorVersion + "." + dependency.minorVersion;
