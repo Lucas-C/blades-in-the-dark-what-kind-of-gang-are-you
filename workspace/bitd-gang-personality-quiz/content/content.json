@@ -13,9 +13,7 @@
           "title": "Some random score",
           "author": "perryphery",
           "source": "https://www.reddit.com/r/bladesinthedark/comments/18cwpdc/some_random_score_i_painted_in_procreate/"
-        },
-        "width": 3508,
-        "height": 2480
+        }
       }
     },
     "skip": false
@@ -31,9 +29,7 @@
             "file": {
               "path": "images/bad-recruit/KickAssLady.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 825,
-              "height": 899
+              "copyright": { "license": "U" }
             }
           },
           "text": "Lucy",
@@ -44,9 +40,7 @@
             "file": {
               "path": "images/bad-recruit/PeterBrom.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 358,
-              "height": 656
+              "copyright": { "license": "U" }
             }
           },
           "text": "Peter",
@@ -57,9 +51,7 @@
             "file": {
               "path": "images/bad-recruit/Gilles.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 1024,
-              "height": 1024
+              "copyright": { "license": "U" }
             }
           },
           "text": "Giles",
@@ -70,9 +62,7 @@
             "file": {
               "path": "images/bad-recruit/Silas.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 1284,
-              "height": 1249
+              "copyright": { "license": "U" }
             }
           },
           "text": "Silas",
@@ -89,9 +79,7 @@
             "file": {
               "path": "images/games/dice.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 564,
-              "height": 396
+              "copyright": { "license": "U" }
             }
           },
           "text": "Les jeux de dés",
@@ -102,9 +90,7 @@
             "file": {
               "path": "images/games/arm-wrestling.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
-              "width": 512,
-              "height": 512
+              "copyright": { "license": "U" }
             }
           },
           "text": "Les bras de fer",
@@ -118,9 +104,7 @@
               "copyright": {
                 "license": "U",
                 "source": "https://www.wallpaperflare.com/fantasy-art-playing-cards-real-people-one-person-young-adult-wallpaper-tnrya"
-              },
-              "width": 1920,
-              "height": 1358
+              }
             }
           },
           "text": "Les jeux de cartes",
@@ -135,9 +119,7 @@
                 "license": "U",
                 "author": "Bryan Sola",
                 "source": "https://bryansola.com/projects/aRbqK2"
-              },
-              "width": 564,
-              "height": 805
+              }
             }
           },
           "text": "Le lancer de couteaux",
@@ -153,9 +135,7 @@
                 "title": "Assassins Creed Syndicate - Concept Art - Fight Club",
                 "author": "Fernando Acosta",
                 "source": "https://conceptartworld.com"
-              },
-              "width": 1221,
-              "height": 600
+              }
             }
           },
           "text": "Les paris sur les combats",
@@ -177,9 +157,7 @@
                 "title": "Arcane - Background painting",
                 "author": "Geoffroy Thoorens",
                 "source": "https://www.artstation.com/artwork/d0KX0K"
-              },
-              "width": 1726,
-              "height": 728
+              }
             }
           },
           "text": "The Last Drop",
@@ -194,9 +172,7 @@
                 "license": "U",
                 "author": "Daniel Thiele",
                 "source": "https://www.artstation.com/artwork/qnOED"
-              },
-              "width": 1600,
-              "height": 949
+              }
             }
           },
           "text": "Lemony Snicket",
@@ -210,9 +186,7 @@
               "copyright": {
                 "license": "U",
                 "source": "https://www.wallpapertip.com/wpic/ihbbwbo_photo-wallpaper-man-book-the-room-stuffed-van/"
-              },
-              "width": 1920,
-              "height": 1358
+              }
             }
           },
           "text": "Le Chiroptère",
@@ -228,9 +202,7 @@
                 "title": "Carnival Row - Concept Art - Newsman",
                 "author": "Sean Andrew Murray",
                 "source": "https://seanandrewmurray.artstation.com/projects/OyZLzv"
-              },
-              "width": 564,
-              "height": 805
+              }
             }
           },
           "text": "Le lancer de couteaux",
@@ -245,9 +217,7 @@
                 "license": "U",
                 "title": "Bloodborne - Concept Art - Iosefka's Clinic",
                 "source": "https://twitter.com/videoartgame/status/1463893306337894400"
-              },
-              "width": 1221,
-              "height": 600
+              }
             }
           },
           "text": "La boutique d'apothicaire abandonnée",
@@ -269,9 +239,7 @@
                 "title": "Wild West Interior",
                 "author": "Kasogi Yose",
                 "source": "https://www.artstation.com/artwork/Q92qd"
-              },
-              "width": 1726,
-              "height": 728
+              }
             }
           },
           "text": "<em>Choix 1</em>",
@@ -285,9 +253,7 @@
               "copyright": {
                 "license": "U",
                 "source": "https://www.pinterest.fr/pin/6051780740241571/"
-              },
-              "width": 1600,
-              "height": 949
+              }
             }
           },
           "text": "<em>Choix 2</em>",
@@ -303,9 +269,7 @@
                 "title": "Raven's Cry - Tavern interior",
                 "author": "Marek Zyguła",
                 "source": "https://www.artstation.com/artwork/xYRX2"
-              },
-              "width": 1920,
-              "height": 1358
+              }
             }
           },
           "text": "<em>Choix 3</em>",
@@ -319,9 +283,7 @@
               "copyright": {
                 "license": "U",
                 "source": "https://en.idei.club/61864-kitchen-fantasy.html"
-              },
-              "width": 564,
-              "height": 805
+              }
             }
           },
           "text": "<em>Choix 4</em>",
@@ -337,9 +299,7 @@
                 "author": "artificialguy",
                 "title": "Pub interior concept",
                 "source": "https://www.deviantart.com/artificialguy/art/Pub-415500894"
-              },
-              "width": 1221,
-              "height": 600
+              }
             }
           },
           "text": "<em>Choix 5</em>",
@@ -354,12 +314,88 @@
                 "license": "U",
                 "title": "Taverne Médiévale En Bois",
                 "source": "https://fr.freepik.com/photos-premium/taverne-medievale-bois-generer-ai_42458446.htm?epik=dj0yJnU9bDdYbkJONS10Q3BRY3dQZi15SlBqSXVqRG5PRzFkdzkmcD0wJm49RnQ4OV90NmtVR21kOTIyWlpsZGNjUSZ0PUFBQUFBR1d1TEJZ"
-              },
-              "width": 1221,
-              "height": 600
+              }
             }
           },
           "text": "<em>Choix 6</em>",
+          "personality": "Cloudberry"
+        }
+      ]
+    },
+    {
+      "text": "Laquelle de ces brutes envisageriez-vous de recruter ?",
+      "image": {},
+      "answers": [
+        {
+          "image": {
+            "file": {
+              "path": "images/who-to-recruit/Bass.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          "text": "Bass",
+          "personality": "blueberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/who-to-recruit/Marlane_13vtmkg.png",
+              "mime": "image/png",
+              "copyright": {
+                "license": "U",
+                "title": "Marlane",
+                "source": "https://www.reddit.com/r/bladesinthedark/comments/13vtmkg/ai_generated_npc_portraits_for_my_blades_game/"
+              }
+            }
+          },
+          "text": "Marlane",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/who-to-recruit/Duddley.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Daddy",
+                "author": "firatsolhan",
+                "source": "https://www.deviantart.com/firatsolhan/art/Daddy-339662860"
+              }
+            }
+          },
+          "text": "Duddley",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/who-to-recruit/Puncher.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U"
+              }
+            }
+          },
+          "text": "Puncher",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/who-to-recruit/Gaston.webp",
+              "mime": "image/webp",
+              "copyright": {
+                "license": "U",
+                "title": "Gaston Shelby - Dishonored",
+                "source": "https://dodecadonjons.fandom.com/fr/wiki/Gaston_Shelby"
+              }
+            }
+          },
+          "text": "Gaston",
           "personality": "Cloudberry"
         }
       ]
@@ -373,9 +409,7 @@
           "mime": "image/png",
           "copyright": {
             "license": "U"
-          },
-          "width": 800,
-          "height": 1002
+          }
         },
         "alt": "Strawberry"
       },
@@ -389,9 +423,7 @@
           "mime": "image/png",
           "copyright": {
             "license": "U"
-          },
-          "width": 800,
-          "height": 919
+          }
         },
         "alt": "Blueberry"
       },
@@ -405,9 +437,7 @@
           "mime": "image/png",
           "copyright": {
             "license": "U"
-          },
-          "width": 1000,
-          "height": 1000
+          }
         },
         "alt": "Cloudberry"
       },
