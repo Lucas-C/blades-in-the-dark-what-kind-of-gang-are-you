@@ -451,7 +451,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
           'class': classes('image-answer-image')
         });
         $image.css('background-image', 'url(' + path + ')');
-        $image.click(() => window.open(path, '_blank'));
+        $image.click(() => $image.toggleClass(prefix('image-answer-enlarged')));
 
         $answer.append($image, $button);
 
