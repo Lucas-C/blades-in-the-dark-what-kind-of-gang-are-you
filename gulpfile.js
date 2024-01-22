@@ -91,12 +91,12 @@ function copy_fonts() {
         .pipe(gulp.dest('dist/fonts'));
 };
 
-gulp.task('demo', function () {
+gulp.task('start', function () {
     browserSync.init({
         server: {
             baseDir: "./",
         },
-        startPath: 'demo/index.html',
+        startPath: './index.html',
     });
 });
 

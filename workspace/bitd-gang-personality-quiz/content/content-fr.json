@@ -21,50 +21,68 @@
   "startText": "Démarrer",
   "questions": [
     {
-      "text": "<b>Mauvais recrutement</b> : qui était-ce et que s'est-il passé ?",
-      "image": {},
+      "text": "À quoi ressemble votre gang, paré à l'action ?",
       "answers": [
         {
-          "text": "Lucy",
-          "personality": "blueberry,cloudberry",
+          "text": "<em>Choix 1</em>",
+          "personality": "Terrifiants",
           "image": {
             "file": {
-              "path": "images/bad-recruit/KickAssLady.jpg",
+              "path": "images/troops-appearance/d53514c581ea4daab36a97c690caa24a.jpeg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" }
+              "copyright": {
+                "license": "U",
+                "title": "Townspeople gathered in the fog, weapons at the ready, and elongated shadows., Mysterious",
+                "author": "Kasun Samaranayake - Playground AI",
+                "source": "https://playgroundai.com/post/clnxqzh6305j6s601yguw1xhf"
+              }
             }
           }
         },
         {
-          "text": "Peter",
-          "personality": "strawberry, blueberry",
+          "text": "<em>Choix 2</em>",
+          "personality": "Populaires",
           "image": {
             "file": {
-              "path": "images/bad-recruit/PeterBrom.jpg",
+              "path": "images/troops-appearance/tumblr_nwbgjemoZC1tn6hrpo1_1280.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" }
+              "copyright": {
+                "license": "U",
+                "title": "Assassin's Creed Syndicate - London Gang Art",
+                "source": "https://info-gamers.tumblr.com/image/131284038654"
+              }
             }
           }
         },
         {
-          "text": "Giles",
-          "personality": "strawberry, blueberry",
+          "text": "<em>Choix 3</em>",
+          "personality": "Businessmen",
           "image": {
             "file": {
-              "path": "images/bad-recruit/Gilles.jpg",
+              "path": "images/troops-appearance/390dda04ce4249ce9b057031c362ece6.jpeg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" }
+              "copyright": {
+                "license": "U",
+                "title": "Art that looks like concept ideas/art for a videogame or movie. a group of master thieves breaking into a museum",
+                "author": "Ghetto Kaiba - Playground AI",
+                "source": "https://playgroundai.com/post/clmxqs56j0eu0s601iblg4xmx"
+              }
             }
           }
         },
         {
-          "text": "Silas",
-          "personality": "strawberry, blueberry",
+          "text": "<em>Choix 4</em>",
+          "personality": "Invisibles",
           "image": {
             "file": {
-              "path": "images/bad-recruit/Silas.jpg",
+              "path": "images/troops-appearance/Joel-Dos-Reis-Viegas-GarettActionPoses.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" }
+              "copyright": {
+                "license": "U",
+                "author": "Joel Dos Reis Viegas",
+                "title": "THIEF Sketches - Research for early concept of Garrett",
+                "source": "https://www.artstation.com/artwork/thief-sketches"
+              }
             }
           }
         }
@@ -72,11 +90,10 @@
     },
     {
       "text": "Quelle distraction avez-vous dû interdire, et pourquoi ?",
-      "image": {},
       "answers": [
         {
           "text": "Les jeux de dés",
-          "personality": "blueberry",
+          "personality": "Populaires",
           "image": {
             "file": {
               "path": "images/games/dice.jpg",
@@ -87,7 +104,7 @@
         },
         {
           "text": "Les bras de fer",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/games/arm-wrestling.jpg",
@@ -98,7 +115,7 @@
         },
         {
           "text": "Les jeux de cartes",
-          "personality": "Cloudberry",
+          "personality": "Businessmen",
           "image": {
             "file": {
               "path": "images/games/fantasy-art-playing-cards-wallpaper.jpg",
@@ -112,7 +129,7 @@
         },
         {
           "text": "Le lancer de couteaux",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/games/knife-throwing.jpg",
@@ -127,7 +144,7 @@
         },
         {
           "text": "Les paris sur les combats",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/games/3_Assassins_Creed_Syndicate_Concept_Art_FA_FightClub_001b.jpg",
@@ -144,191 +161,32 @@
       ]
     },
     {
-      "text": "Quelle est cette étrange boutique sur votre territoire ?",
-      "image": {},
+      "text": "Comment vous débarrassez-vous des cadavres ?",
       "answers": [
         {
-          "text": "The Last Drop",
-          "personality": "blueberry",
-          "image": {
-            "file": {
-              "path": "images/strange-shop/geoffroy-thoorens-f8kr7yz4.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Arcane - Background painting",
-                "author": "Geoffroy Thoorens",
-                "source": "https://www.artstation.com/artwork/d0KX0K"
-              }
-            }
-          }
+          "text": "Le feu c'est magique, ça ne laisse aucune trace",
+          "personality": "Invisibles"
         },
         {
-          "text": "Lemony Snicket",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/strange-shop/daniel-thiele-truthful-phone-1600.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "author": "Daniel Thiele",
-                "source": "https://www.artstation.com/artwork/qnOED"
-              }
-            }
-          }
+          "text": "Bien lestés, ils s'entassent au fond du Dosk",
+          "personality": ""
         },
         {
-          "text": "Le Chiroptère",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/strange-shop/236-2360816_photo-wallpaper-man-book-the-room-stuffed-van.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "source": "https://www.wallpapertip.com/wpic/ihbbwbo_photo-wallpaper-man-book-the-room-stuffed-van/"
-              }
-            }
-          }
+          "text": "Les porcs de Sam n'en laissent pas une miette",
+          "personality": "Terrifiants"
         },
         {
-          "text": "Un vendeur de journaux",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/strange-shop/CarnivalRow-ConceptArt-Newsman01.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Carnival Row - Concept Art - Newsman",
-                "author": "Sean Andrew Murray",
-                "source": "https://seanandrewmurray.artstation.com/projects/OyZLzv"
-              }
-            }
-          }
-        },
-        {
-          "text": "La boutique d'apothicaire abandonnée",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/strange-shop/Bloodborne-ConceptArt-IosefkasClinic.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Bloodborne - Concept Art - Iosefka's Clinic",
-                "source": "https://twitter.com/videoartgame/status/1463893306337894400"
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "text": "À quoi ressemble le pub sous votre protection, et quelles surprises recèle-t-il ?",
-      "image": {},
-      "answers": [
-        {
-          "text": "<em>Choix 1</em>",
-          "personality": "blueberry",
-          "image": {
-            "file": {
-              "path": "images/pub/kasogi-yose-wildwest-b.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Wild West Interior",
-                "author": "Kasogi Yose",
-                "source": "https://www.artstation.com/artwork/Q92qd"
-              }
-            }
-          }
-        },
-        {
-          "text": "<em>Choix 2</em>",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/pub/FengZhuDesign.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "source": "https://www.pinterest.fr/pin/6051780740241571/"
-              }
-            }
-          }
-        },
-        {
-          "text": "<em>Choix 3</em>",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/pub/marek-zygula-tavern-2-4.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Raven's Cry - Tavern interior",
-                "author": "Marek Zyguła",
-                "source": "https://www.artstation.com/artwork/xYRX2"
-              }
-            }
-          }
-        },
-        {
-          "text": "<em>Choix 4</em>",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/pub/1701938656_en-idei-club-p-kitchen-fantasy-interer-vkontakte-45.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "source": "https://en.idei.club/61864-kitchen-fantasy.html"
-              }
-            }
-          }
-        },
-        {
-          "text": "<em>Choix 5</em>",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/pub/a-pub-by-artificialguy.jpg",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "author": "artificialguy",
-                "title": "Pub interior concept",
-                "source": "https://www.deviantart.com/artificialguy/art/Pub-415500894"
-              }
-            }
-          }
-        },
-        {
-          "text": "<em>Choix 6</em>",
-          "personality": "Cloudberry",
-          "image": {
-            "file": {
-              "path": "images/pub/taverne-medievale-bois-generer-ai_98402-7576.avif",
-              "mime": "image/jpeg",
-              "copyright": {
-                "license": "U",
-                "title": "Taverne Médiévale En Bois",
-                "source": "https://fr.freepik.com/photos-premium/taverne-medievale-bois-generer-ai_42458446.htm?epik=dj0yJnU9bDdYbkJONS10Q3BRY3dQZi15SlBqSXVqRG5PRzFkdzkmcD0wJm49RnQ4OV90NmtVR21kOTIyWlpsZGNjUSZ0PUFBQUFBR1d1TEJZ"
-              }
-            }
-          }
+          "text": "On laisse des professionnels s'en charger",
+          "personality": "Businessmen"
         }
       ]
     },
     {
       "text": "Laquelle de ces brutes envisageriez-vous de recruter ?",
-      "image": {},
       "answers": [
         {
           "text": "Bass",
-          "personality": "blueberry",
+          "personality": "Populaires",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Bass.jpg",
@@ -341,7 +199,7 @@
         },
         {
           "text": "Marlane",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Marlane_13vtmkg.png",
@@ -356,7 +214,7 @@
         },
         {
           "text": "Duddley",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Duddley.jpg",
@@ -372,7 +230,7 @@
         },
         {
           "text": "Puncher",
-          "personality": "Cloudberry",
+          "personality": "Terrifiants",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Puncher.jpg",
@@ -385,7 +243,7 @@
         },
         {
           "text": "Gaston",
-          "personality": "Cloudberry",
+          "personality": "Businessmen",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Gaston.webp",
@@ -401,68 +259,267 @@
       ]
     },
     {
-      "text": "À quoi ressemble votre gang, paré à l'action ?",
-      "image": {},
+      "text": "Comment obtenez-vous vos renseignements ?",
       "answers": [
         {
-          "text": "<em>Choix 1</em>",
-          "personality": "blueberry",
+          "text": "Grâce aux services de quelques <em>Bluecoats</em> ripoux",
+          "personality": "Businessmen"
+        },
+        {
+          "text": "Vous avez des oreilles dans tous les bureaux de poste",
+          "personality": "Invisibles,Populaires"
+        },
+        {
+          "text": "Grâce aux commerçants sous votre « protection »",
+          "personality": "Populaires,Terrifiants"
+        },
+        {
+          "text": "Vous employez les meilleurs dans ce domaine : <em>The Wraiths</em>",
+          "personality": "Businessmen"
+        }
+      ]
+    },
+    {
+      "text": "Quelle est cette étrange boutique sur votre territoire ?",
+      "answers": [
+        {
+          "text": "The Last Drop",
+          "personality": "Businessmen,Populaires",
           "image": {
             "file": {
-              "path": "images/troops-appearance/d53514c581ea4daab36a97c690caa24a.jpeg",
+              "path": "images/strange-shop/geoffroy-thoorens-f8kr7yz4.jpg",
               "mime": "image/jpeg",
               "copyright": {
                 "license": "U",
-                "title": "Townspeople gathered in the fog, weapons at the ready, and elongated shadows., Mysterious",
-                "author": "Kasun Samaranayake - Playground AI",
-                "source": "https://playgroundai.com/post/clnxqzh6305j6s601yguw1xhf"
+                "title": "Arcane - Background painting",
+                "author": "Geoffroy Thoorens",
+                "source": "https://www.artstation.com/artwork/d0KX0K"
+              }
+            }
+          }
+        },
+        {
+          "text": "Lemony Snicket",
+          "personality": "Businessmen,Populaires",
+          "image": {
+            "file": {
+              "path": "images/strange-shop/daniel-thiele-truthful-phone-1600.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "author": "Daniel Thiele",
+                "source": "https://www.artstation.com/artwork/qnOED"
+              }
+            }
+          }
+        },
+        {
+          "text": "Le Chiroptère",
+          "personality": "Invisibles,Terrifiants",
+          "image": {
+            "file": {
+              "path": "images/strange-shop/236-2360816_photo-wallpaper-man-book-the-room-stuffed-van.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "source": "https://www.wallpapertip.com/wpic/ihbbwbo_photo-wallpaper-man-book-the-room-stuffed-van/"
+              }
+            }
+          }
+        },
+        {
+          "text": "Un vendeur de journaux",
+          "personality": "Businessmen,Invisibles",
+          "image": {
+            "file": {
+              "path": "images/strange-shop/CarnivalRow-ConceptArt-Newsman01.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Carnival Row - Concept Art - Newsman",
+                "author": "Sean Andrew Murray",
+                "source": "https://seanandrewmurray.artstation.com/projects/OyZLzv"
+              }
+            }
+          }
+        },
+        {
+          "text": "La boutique d'apothicaire abandonnée",
+          "personality": "Invisibles,Terrifiants",
+          "image": {
+            "file": {
+              "path": "images/strange-shop/Bloodborne-ConceptArt-IosefkasClinic.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Bloodborne - Concept Art - Iosefka's Clinic",
+                "source": "https://twitter.com/videoartgame/status/1463893306337894400"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "text": "Comment gérez-vous les témoins gênants ?",
+      "answers": [
+        {
+          "text": "<b>Intimidation</b> : ils vous craignent plus que les <em>Bluecoats</em>",
+          "personality": "Terrifiants"
+        },
+        {
+          "text": "<b>Corruption</b> : le silence a toujours un prix",
+          "personality": "Businessmen"
+        },
+        {
+          "text": "<b>Héros du peuple</b> : la majorité de la population vous soutient",
+          "personality": "Populaires"
+        },
+        {
+          "text": "<b>Sans pitié</b> : on ne laisse <u>jamais</u> de témoin vivant",
+          "personality": "Invisibles"
+        }
+      ]
+    },
+    {
+      "text": "<b>Mauvais recrutement</b> : qui était-ce et que s'est-il passé ?",
+      "answers": [
+        {
+          "text": "Lucy",
+          "personality": "Populaires,Terrifiants",
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/KickAssLady.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" }
+            }
+          }
+        },
+        {
+          "text": "Peter",
+          "personality": "Invisibles",
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/PeterBrom.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" }
+            }
+          }
+        },
+        {
+          "text": "Giles",
+          "personality": "Populaires,Terrifiants",
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/Gilles.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" }
+            }
+          }
+        },
+        {
+          "text": "Silas",
+          "personality": "Businessmen,Populaires",
+          "image": {
+            "file": {
+              "path": "images/bad-recruit/Silas.jpg",
+              "mime": "image/jpeg",
+              "copyright": { "license": "U" }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "text": "À quoi ressemble le pub sous votre protection, et quelles surprises recèle-t-il ?",
+      "answers": [
+        {
+          "text": "<em>Choix 1</em>",
+          "personality": "",
+          "image": {
+            "file": {
+              "path": "images/pub/kasogi-yose-wildwest-b.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Wild West Interior",
+                "author": "Kasogi Yose",
+                "source": "https://www.artstation.com/artwork/Q92qd"
               }
             }
           }
         },
         {
           "text": "<em>Choix 2</em>",
-          "personality": "Cloudberry",
+          "personality": "",
           "image": {
             "file": {
-              "path": "images/troops-appearance/tumblr_nwbgjemoZC1tn6hrpo1_1280.jpg",
+              "path": "images/pub/FengZhuDesign.jpg",
               "mime": "image/jpeg",
               "copyright": {
                 "license": "U",
-                "title": "Assassin's Creed Syndicate - London Gang Art",
-                "source": "https://info-gamers.tumblr.com/image/131284038654"
+                "source": "https://www.pinterest.fr/pin/6051780740241571/"
               }
             }
           }
         },
         {
           "text": "<em>Choix 3</em>",
-          "personality": "Cloudberry",
+          "personality": "",
           "image": {
             "file": {
-              "path": "images/troops-appearance/390dda04ce4249ce9b057031c362ece6.jpeg",
+              "path": "images/pub/marek-zygula-tavern-2-4.jpg",
               "mime": "image/jpeg",
               "copyright": {
                 "license": "U",
-                "title": "Art that looks like concept ideas/art for a videogame or movie. a group of master thieves breaking into a museum",
-                "author": "Ghetto Kaiba - Playground AI",
-                "source": "https://playgroundai.com/post/clmxqs56j0eu0s601iblg4xmx"
+                "title": "Raven's Cry - Tavern interior",
+                "author": "Marek Zyguła",
+                "source": "https://www.artstation.com/artwork/xYRX2"
               }
             }
           }
         },
         {
           "text": "<em>Choix 4</em>",
-          "personality": "Cloudberry",
+          "personality": "",
           "image": {
             "file": {
-              "path": "images/troops-appearance/Joel-Dos-Reis-Viegas-GarettActionPoses.jpg",
+              "path": "images/pub/1701938656_en-idei-club-p-kitchen-fantasy-interer-vkontakte-45.jpg",
               "mime": "image/jpeg",
               "copyright": {
                 "license": "U",
-                "author": "Joel Dos Reis Viegas",
-                "title": "THIEF Sketches - Research for early concept of Garrett",
-                "source": "https://www.artstation.com/artwork/thief-sketches"
+                "source": "https://en.idei.club/61864-kitchen-fantasy.html"
+              }
+            }
+          }
+        },
+        {
+          "text": "<em>Choix 5</em>",
+          "personality": "",
+          "image": {
+            "file": {
+              "path": "images/pub/a-pub-by-artificialguy.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "author": "artificialguy",
+                "title": "Pub interior concept",
+                "source": "https://www.deviantart.com/artificialguy/art/Pub-415500894"
+              }
+            }
+          }
+        },
+        {
+          "text": "<em>Choix 6</em>",
+          "personality": "",
+          "image": {
+            "file": {
+              "path": "images/pub/taverne-medievale-bois-generer-ai_98402-7576.avif",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Taverne Médiévale En Bois",
+                "source": "https://fr.freepik.com/photos-premium/taverne-medievale-bois-generer-ai_42458446.htm?epik=dj0yJnU9bDdYbkJONS10Q3BRY3dQZi15SlBqSXVqRG5PRzFkdzkmcD0wJm49RnQ4OV90NmtVR21kOTIyWlpsZGNjUSZ0PUFBQUFBR1d1TEJZ"
               }
             }
           }
@@ -472,43 +529,20 @@
   ],
   "personalities": [
     {
-      "name": "Work-in-progress",
-      "description": "Comming soon...",
-      "image": {
-        "file": {
-          "path": "images/file-57a1b65aa8cc6.png",
-          "mime": "image/png",
-          "copyright": {
-            "license": "U"
-          }
-        }
-      }
+      "name": "Businessmen",
+      "description": "Vous n'avez ni morale ni sentiments. Vous êtes efficaces et sans scrupules. L'important c'est que les affaires restent florissantes."
     },
     {
-      "name": "Work-in-progress",
-      "description": "Comming soon...",
-      "image": {
-        "file": {
-          "path": "images/file-57a1b66282089.png",
-          "mime": "image/png",
-          "copyright": {
-            "license": "U"
-          }
-        }
-      }
+      "name": "Populaires",
+      "description": "Vous savez cultiver la confiance de la population des bas-fonds, qui vous préfère aux forces de l'ordre pour régler leurs problèmes. Parfois, votre sens moral de la justice sociale prend le dessus, et passe avant l'intérêt du gang."
     },
     {
-      "name": "Work-in-progress",
-      "description": "Comming soon...",
-      "image": {
-        "file": {
-          "path": "images/file-57a1b5db25459.png",
-          "mime": "image/png",
-          "copyright": {
-            "license": "U"
-          }
-        }
-      }
+      "name": "Invisibles",
+      "description": "Vous ne laissez jamais une seule trace, et personne ne sait vraiment à quoi vous ressemblez. Vous cultivez le secret et tirez les ficelles dans l'ombre."
+    },
+    {
+      "name": "Terrifiants",
+      "description": "Ouvriers, <em>Bluecoats</em>, gangs rivaux... Tous tremblent en entendant votre nom. On raconte les pires atrocités sur vous et votre absence d'humanité. Et le pire, c'est que la plupart de ces rumeurs sont vraies..."
     }
   ],
   "resultScreen": {

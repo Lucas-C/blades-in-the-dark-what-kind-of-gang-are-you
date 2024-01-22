@@ -37,4 +37,4 @@ Unzip `.h5p` file into `workspace` directory
 
 Run a simple http server e.g. `python -m SimpleHttpServer`
 
-head to `http://localhost:8080/demo/`
+head to `http://localhost:8080/`
