@@ -115,7 +115,10 @@
             "file": {
               "path": "images/games/fantasy-art-playing-cards-wallpaper.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
+              "copyright": {
+                "license": "U",
+                "source": "https://www.wallpaperflare.com/fantasy-art-playing-cards-real-people-one-person-young-adult-wallpaper-tnrya"
+              },
               "width": 1920,
               "height": 1358
             }
@@ -128,7 +131,11 @@
             "file": {
               "path": "images/games/knife-throwing.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
+              "copyright": {
+                "license": "U",
+                "author": "Bryan Sola",
+                "source": "https://bryansola.com/projects/aRbqK2"
+              },
               "width": 564,
               "height": 805
             }
@@ -141,12 +148,218 @@
             "file": {
               "path": "images/games/3_Assassins_Creed_Syndicate_Concept_Art_FA_FightClub_001b.jpg",
               "mime": "image/jpeg",
-              "copyright": { "license": "U" },
+              "copyright": {
+                "license": "U",
+                "title": "Assassins Creed Syndicate - Concept Art - Fight Club",
+                "author": "Fernando Acosta",
+                "source": "https://conceptartworld.com"
+              },
               "width": 1221,
               "height": 600
             }
           },
           "text": "Les paris sur les combats",
+          "personality": "Cloudberry"
+        }
+      ]
+    },
+    {
+      "text": "Quelle est cette étrange boutique sur votre territoire ?",
+      "image": {},
+      "answers": [
+        {
+          "image": {
+            "file": {
+              "path": "images/strange-shop/geoffroy-thoorens-f8kr7yz4.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Arcane - Background painting",
+                "author": "Geoffroy Thoorens",
+                "source": "https://www.artstation.com/artwork/d0KX0K"
+              },
+              "width": 1726,
+              "height": 728
+            }
+          },
+          "text": "The Last Drop",
+          "personality": "blueberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/strange-shop/daniel-thiele-truthful-phone-1600.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "author": "Daniel Thiele",
+                "source": "https://www.artstation.com/artwork/qnOED"
+              },
+              "width": 1600,
+              "height": 949
+            }
+          },
+          "text": "Lemony Snicket",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/strange-shop/236-2360816_photo-wallpaper-man-book-the-room-stuffed-van.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "source": "https://www.wallpapertip.com/wpic/ihbbwbo_photo-wallpaper-man-book-the-room-stuffed-van/"
+              },
+              "width": 1920,
+              "height": 1358
+            }
+          },
+          "text": "Le Chiroptère",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/strange-shop/CarnivalRow-ConceptArt-Newsman01.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Carnival Row - Concept Art - Newsman",
+                "author": "Sean Andrew Murray",
+                "source": "https://seanandrewmurray.artstation.com/projects/OyZLzv"
+              },
+              "width": 564,
+              "height": 805
+            }
+          },
+          "text": "Le lancer de couteaux",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/strange-shop/Bloodborne-ConceptArt-IosefkasClinic.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Bloodborne - Concept Art - Iosefka's Clinic",
+                "source": "https://twitter.com/videoartgame/status/1463893306337894400"
+              },
+              "width": 1221,
+              "height": 600
+            }
+          },
+          "text": "La boutique d'apothicaire abandonnée",
+          "personality": "Cloudberry"
+        }
+      ]
+    },
+    {
+      "text": "À quoi ressemble le pub sous votre protection, et quelles surprises recèle-t-il ?",
+      "image": {},
+      "answers": [
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/kasogi-yose-wildwest-b.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Wild West Interior",
+                "author": "Kasogi Yose",
+                "source": "https://www.artstation.com/artwork/Q92qd"
+              },
+              "width": 1726,
+              "height": 728
+            }
+          },
+          "text": "<em>Choix 1</em>",
+          "personality": "blueberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/FengZhuDesign.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "source": "https://www.pinterest.fr/pin/6051780740241571/"
+              },
+              "width": 1600,
+              "height": 949
+            }
+          },
+          "text": "<em>Choix 2</em>",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/marek-zygula-tavern-2-4.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Raven's Cry - Tavern interior",
+                "author": "Marek Zyguła",
+                "source": "https://www.artstation.com/artwork/xYRX2"
+              },
+              "width": 1920,
+              "height": 1358
+            }
+          },
+          "text": "<em>Choix 3</em>",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/1701938656_en-idei-club-p-kitchen-fantasy-interer-vkontakte-45.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "source": "https://en.idei.club/61864-kitchen-fantasy.html"
+              },
+              "width": 564,
+              "height": 805
+            }
+          },
+          "text": "<em>Choix 4</em>",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/pub-by-artificialguy.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "author": "artificialguy",
+                "title": "Pub interior concept",
+                "source": "https://www.deviantart.com/artificialguy/art/Pub-415500894"
+              },
+              "width": 1221,
+              "height": 600
+            }
+          },
+          "text": "<em>Choix 5</em>",
+          "personality": "Cloudberry"
+        },
+        {
+          "image": {
+            "file": {
+              "path": "images/pub/taverne-medievale-bois-generer-ai_98402-7576.avif",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Taverne Médiévale En Bois",
+                "source": "https://fr.freepik.com/photos-premium/taverne-medievale-bois-generer-ai_42458446.htm?epik=dj0yJnU9bDdYbkJONS10Q3BRY3dQZi15SlBqSXVqRG5PRzFkdzkmcD0wJm49RnQ4OV90NmtVR21kOTIyWlpsZGNjUSZ0PUFBQUFBR1d1TEJZ"
+              },
+              "width": 1221,
+              "height": 600
+            }
+          },
+          "text": "<em>Choix 6</em>",
           "personality": "Cloudberry"
         }
       ]
