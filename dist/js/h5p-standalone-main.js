@@ -9240,7 +9240,11 @@ function _arrayWithHoles(arr) {
 
   function getJSONPromise(url) {
     return new Promise(function (resolve, reject) {
-      H5P.jQuery.getJSON(url, resolve).fail(reject);
+      H5P.jQuery.getJSON(url, resolve).fail((ejqXHR, txtStatus, errThrown) => {
+        console.log("Status : " + txtStatus);
+        console.log("Error : " + errThrown);
+        reject(ejqXHR);
+      });
     });
   }
 
