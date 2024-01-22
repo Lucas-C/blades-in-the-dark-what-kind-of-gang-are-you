@@ -9,6 +9,10 @@ It's based on <https://github.com/tunapanda/h5p-standalone/tree/1.3.x>
 
 H5P template used: <https://h5p.org/personality-quiz>
 
+Contributions are welcome to:
+* add translations (new `workspace/bitd-gang-personality-quiz/content/content-$lang.json` files)
+* add new _Blades in the Dark_ quizzes (you can copy `workspace/bitd-gang-personality-quiz/` into another directory and then edit `content-$lang.json` directly, or else edit the `.h5p` file using a H5P editor like [Lumi](https://app.lumi.education/))
+
 ## Generate a .h5p file
 
     cd workspace/bitd-gang-personality-quiz/

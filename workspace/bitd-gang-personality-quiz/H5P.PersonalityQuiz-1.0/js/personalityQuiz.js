@@ -1041,7 +1041,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       if (event !== undefined && event.data !== undefined) {
         eventData = event.data;
         self.answersPerQuestion[eventData.questionText] = eventData.answerText;
-        
+
         answerPersonalities = eventData.personalities.split(',').map(p => p.trim());
         answerPersonalities.forEach(function (answerPersonality) {
           self.personalities.forEach(function (personality) {
