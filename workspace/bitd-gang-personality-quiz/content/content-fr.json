@@ -16,6 +16,7 @@
         }
       }
     },
+    "description": "Ce quiz est conçu pour que les joueurs y répondent collectivement, afin de définir certains aspects de leur gang, de faire du <em>world-building</em> et de construire un imaginaire visuel commun.",
     "skip": false
   },
   "startText": "Démarrer",

@@ -295,10 +295,12 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
         'html': startText,
         'type': 'button'
       });
-
       addButtonListener($startButton, function () {
         quiz.trigger('personality-quiz-start');
       });
+      if (data.description) {
+        $wrapper.append($(`<div class="${classes('start-description')}">${data.description}</div>`));
+      }
 
       $wrapper.append($startButton);
       $content.append($title, $wrapper);
