@@ -25,48 +25,48 @@
       "image": {},
       "answers": [
         {
+          "text": "Lucy",
+          "personality": "blueberry,cloudberry",
           "image": {
             "file": {
               "path": "images/bad-recruit/KickAssLady.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Lucy",
-          "personality": "blueberry,cloudberry"
+          }
         },
         {
+          "text": "Peter",
+          "personality": "strawberry, blueberry",
           "image": {
             "file": {
               "path": "images/bad-recruit/PeterBrom.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Peter",
-          "personality": "strawberry, blueberry"
+          }
         },
         {
+          "text": "Giles",
+          "personality": "strawberry, blueberry",
           "image": {
             "file": {
               "path": "images/bad-recruit/Gilles.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Giles",
-          "personality": "strawberry, blueberry"
+          }
         },
         {
+          "text": "Silas",
+          "personality": "strawberry, blueberry",
           "image": {
             "file": {
               "path": "images/bad-recruit/Silas.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Silas",
-          "personality": "strawberry, blueberry"
+          }
         }
       ]
     },
@@ -75,28 +75,30 @@
       "image": {},
       "answers": [
         {
+          "text": "Les jeux de dés",
+          "personality": "blueberry",
           "image": {
             "file": {
               "path": "images/games/dice.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Les jeux de dés",
-          "personality": "blueberry"
+          }
         },
         {
+          "text": "Les bras de fer",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/games/arm-wrestling.jpg",
               "mime": "image/jpeg",
               "copyright": { "license": "U" }
             }
-          },
-          "text": "Les bras de fer",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Les jeux de cartes",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/games/fantasy-art-playing-cards-wallpaper.jpg",
@@ -106,11 +108,11 @@
                 "source": "https://www.wallpaperflare.com/fantasy-art-playing-cards-real-people-one-person-young-adult-wallpaper-tnrya"
               }
             }
-          },
-          "text": "Les jeux de cartes",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Le lancer de couteaux",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/games/knife-throwing.jpg",
@@ -121,11 +123,11 @@
                 "source": "https://bryansola.com/projects/aRbqK2"
               }
             }
-          },
-          "text": "Le lancer de couteaux",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Les paris sur les combats",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/games/3_Assassins_Creed_Syndicate_Concept_Art_FA_FightClub_001b.jpg",
@@ -137,9 +139,7 @@
                 "source": "https://conceptartworld.com"
               }
             }
-          },
-          "text": "Les paris sur les combats",
-          "personality": "Cloudberry"
+          }
         }
       ]
     },
@@ -148,6 +148,8 @@
       "image": {},
       "answers": [
         {
+          "text": "The Last Drop",
+          "personality": "blueberry",
           "image": {
             "file": {
               "path": "images/strange-shop/geoffroy-thoorens-f8kr7yz4.jpg",
@@ -159,11 +161,11 @@
                 "source": "https://www.artstation.com/artwork/d0KX0K"
               }
             }
-          },
-          "text": "The Last Drop",
-          "personality": "blueberry"
+          }
         },
         {
+          "text": "Lemony Snicket",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/strange-shop/daniel-thiele-truthful-phone-1600.jpg",
@@ -174,11 +176,11 @@
                 "source": "https://www.artstation.com/artwork/qnOED"
               }
             }
-          },
-          "text": "Lemony Snicket",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Le Chiroptère",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/strange-shop/236-2360816_photo-wallpaper-man-book-the-room-stuffed-van.jpg",
@@ -188,11 +190,11 @@
                 "source": "https://www.wallpapertip.com/wpic/ihbbwbo_photo-wallpaper-man-book-the-room-stuffed-van/"
               }
             }
-          },
-          "text": "Le Chiroptère",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Le lancer de couteaux",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/strange-shop/CarnivalRow-ConceptArt-Newsman01.jpg",
@@ -204,11 +206,11 @@
                 "source": "https://seanandrewmurray.artstation.com/projects/OyZLzv"
               }
             }
-          },
-          "text": "Le lancer de couteaux",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "La boutique d'apothicaire abandonnée",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/strange-shop/Bloodborne-ConceptArt-IosefkasClinic.jpg",
@@ -219,9 +221,7 @@
                 "source": "https://twitter.com/videoartgame/status/1463893306337894400"
               }
             }
-          },
-          "text": "La boutique d'apothicaire abandonnée",
-          "personality": "Cloudberry"
+          }
         }
       ]
     },
@@ -230,6 +230,8 @@
       "image": {},
       "answers": [
         {
+          "text": "<em>Choix 1</em>",
+          "personality": "blueberry",
           "image": {
             "file": {
               "path": "images/pub/kasogi-yose-wildwest-b.jpg",
@@ -241,11 +243,11 @@
                 "source": "https://www.artstation.com/artwork/Q92qd"
               }
             }
-          },
-          "text": "<em>Choix 1</em>",
-          "personality": "blueberry"
+          }
         },
         {
+          "text": "<em>Choix 2</em>",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/pub/FengZhuDesign.jpg",
@@ -255,11 +257,11 @@
                 "source": "https://www.pinterest.fr/pin/6051780740241571/"
               }
             }
-          },
-          "text": "<em>Choix 2</em>",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "<em>Choix 3</em>",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/pub/marek-zygula-tavern-2-4.jpg",
@@ -271,11 +273,11 @@
                 "source": "https://www.artstation.com/artwork/xYRX2"
               }
             }
-          },
-          "text": "<em>Choix 3</em>",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "<em>Choix 4</em>",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/pub/1701938656_en-idei-club-p-kitchen-fantasy-interer-vkontakte-45.jpg",
@@ -285,14 +287,14 @@
                 "source": "https://en.idei.club/61864-kitchen-fantasy.html"
               }
             }
-          },
-          "text": "<em>Choix 4</em>",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "<em>Choix 5</em>",
+          "personality": "Cloudberry",
           "image": {
             "file": {
-              "path": "images/pub/pub-by-artificialguy.jpg",
+              "path": "images/pub/a-pub-by-artificialguy.jpg",
               "mime": "image/jpeg",
               "copyright": {
                 "license": "U",
@@ -301,11 +303,11 @@
                 "source": "https://www.deviantart.com/artificialguy/art/Pub-415500894"
               }
             }
-          },
-          "text": "<em>Choix 5</em>",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "<em>Choix 6</em>",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/pub/taverne-medievale-bois-generer-ai_98402-7576.avif",
@@ -316,9 +318,7 @@
                 "source": "https://fr.freepik.com/photos-premium/taverne-medievale-bois-generer-ai_42458446.htm?epik=dj0yJnU9bDdYbkJONS10Q3BRY3dQZi15SlBqSXVqRG5PRzFkdzkmcD0wJm49RnQ4OV90NmtVR21kOTIyWlpsZGNjUSZ0PUFBQUFBR1d1TEJZ"
               }
             }
-          },
-          "text": "<em>Choix 6</em>",
-          "personality": "Cloudberry"
+          }
         }
       ]
     },
@@ -327,6 +327,8 @@
       "image": {},
       "answers": [
         {
+          "text": "Bass",
+          "personality": "blueberry",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Bass.jpg",
@@ -335,11 +337,11 @@
                 "license": "U"
               }
             }
-          },
-          "text": "Bass",
-          "personality": "blueberry"
+          }
         },
         {
+          "text": "Marlane",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Marlane_13vtmkg.png",
@@ -350,11 +352,11 @@
                 "source": "https://www.reddit.com/r/bladesinthedark/comments/13vtmkg/ai_generated_npc_portraits_for_my_blades_game/"
               }
             }
-          },
-          "text": "Marlane",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Duddley",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Duddley.jpg",
@@ -366,11 +368,11 @@
                 "source": "https://www.deviantart.com/firatsolhan/art/Daddy-339662860"
               }
             }
-          },
-          "text": "Duddley",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Puncher",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Puncher.jpg",
@@ -379,11 +381,11 @@
                 "license": "U"
               }
             }
-          },
-          "text": "Puncher",
-          "personality": "Cloudberry"
+          }
         },
         {
+          "text": "Gaston",
+          "personality": "Cloudberry",
           "image": {
             "file": {
               "path": "images/who-to-recruit/Gaston.webp",
@@ -394,9 +396,76 @@
                 "source": "https://dodecadonjons.fandom.com/fr/wiki/Gaston_Shelby"
               }
             }
-          },
-          "text": "Gaston",
-          "personality": "Cloudberry"
+          }
+        }
+      ]
+    },
+    {
+      "text": "À quoi ressemble votre gang, paré à l'action ?",
+      "image": {},
+      "answers": [
+        {
+          "text": "<em>Choix 1</em>",
+          "personality": "blueberry",
+          "image": {
+            "file": {
+              "path": "images/troops-appearance/d53514c581ea4daab36a97c690caa24a.jpeg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Townspeople gathered in the fog, weapons at the ready, and elongated shadows., Mysterious",
+                "author": "Kasun Samaranayake - Playground AI",
+                "source": "https://playgroundai.com/post/clnxqzh6305j6s601yguw1xhf"
+              }
+            }
+          }
+        },
+        {
+          "text": "<em>Choix 2</em>",
+          "personality": "Cloudberry",
+          "image": {
+            "file": {
+              "path": "images/troops-appearance/tumblr_nwbgjemoZC1tn6hrpo1_1280.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Assassin's Creed Syndicate - London Gang Art",
+                "source": "https://info-gamers.tumblr.com/image/131284038654"
+              }
+            }
+          }
+        },
+        {
+          "text": "<em>Choix 3</em>",
+          "personality": "Cloudberry",
+          "image": {
+            "file": {
+              "path": "images/troops-appearance/390dda04ce4249ce9b057031c362ece6.jpeg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "title": "Art that looks like concept ideas/art for a videogame or movie. a group of master thieves breaking into a museum",
+                "author": "Ghetto Kaiba - Playground AI",
+                "source": "https://playgroundai.com/post/clmxqs56j0eu0s601iblg4xmx"
+              }
+            }
+          }
+        },
+        {
+          "text": "<em>Choix 4</em>",
+          "personality": "Cloudberry",
+          "image": {
+            "file": {
+              "path": "images/troops-appearance/Joel-Dos-Reis-Viegas-GarettActionPoses.jpg",
+              "mime": "image/jpeg",
+              "copyright": {
+                "license": "U",
+                "author": "Joel Dos Reis Viegas",
+                "title": "THIEF Sketches - Research for early concept of Garrett",
+                "source": "https://www.artstation.com/artwork/thief-sketches"
+              }
+            }
+          }
         }
       ]
     }
