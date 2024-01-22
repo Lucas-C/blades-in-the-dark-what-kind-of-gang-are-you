@@ -248,7 +248,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       $text = $('<p>', { 'class': classes('progress-text') });
 
       text = interpolate(self.progressText, {
-        'question': self.answered + 1,
+        'question': self.answered() + 1,
         'total': self.numQuestions
       });
 
@@ -316,7 +316,8 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
     */
     function createQuestion(quiz, question) {
       var $slide, $text, $image, $answer;
-      var path, deferred, images, createAnswerButton;
+      var path, deferred, hasImages, createAnswerButton;
+      var questionImage = question.image || {};
 
       $slide = $('<div>', { 'class': classes('question', 'slide') });
       $text = $('<h2>', {
@@ -324,8 +325,8 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
         'html': question.text
       });
 
-      if (question.image.file) {
-        path = _getPath(question.image.file.path);
+      if (questionImage.file) {
+        path = _getPath(questionImage.file.path);
 
         $image = $('<img>', {
           'class': classes('question-image'),
@@ -344,10 +345,11 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       $slide.append($text);
 
       // NOTE (Emil): We only make the answers show images if all the alternatives have images.
-      images = true;
-      question.answers.forEach(function (answer) { images = images && answer.image.file !== undefined; });
+      var hasImages = question.answers.some(function (answer) {
+        return answer.image && answer.image.file !== undefined;
+      });
 
-      createAnswerButton = images ? createImageAnswer : createAnswer;
+      createAnswerButton = hasImages ? createImageAnswer : createAnswer;
 
       $answer = createAnswerButton(question.answers, quiz.answerListener);
 
@@ -539,16 +541,18 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       @param {Object} personality
     */
     function setPersonalityBackgroundImage($result, $personality, personality) {
-      var path = _getPath(personality.image.file.path);
-      var classNames = [
-        prefix('background'),
-        prefix('center-personality-wrapper'),
-      ];
+      if (personality.image && personality.image.path) {
+        var path = _getPath(personality.image.file.path);
+        var classNames = [
+          prefix('background'),
+          prefix('center-personality-wrapper'),
+        ];
 
-      $result.css('background-image', 'url(' + path + ')');
-      $result.addClass(classNames.join(' '));
+        $result.css('background-image', 'url(' + path + ')');
+        $result.addClass(classNames.join(' '));
 
-      $personality.addClass(prefix('center-personality'));
+        $personality.addClass(prefix('center-personality'));
+      }
     }
 
     /**
@@ -602,11 +606,11 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       @param {boolean} hasDescription
     */
     function appendPersonality(quiz, personality, hasTitle, hasImage, hasDescription) {
-      var $personality, $title, $description, $image;
+      var $personality, $title, $description, $image, $details, $detailsSummary, $detailsDl;
 
       $title = createIf(hasTitle, '<h2>', { 'html': personality.name });
 
-      if (personality.image.file) {
+      if (personality.image && personality.image.file) {
         $image = createIf(hasImage, '<img>', {
           'class': classes('result-image'),
           'src': _getPath(personality.image.file.path),
@@ -618,6 +622,16 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
         'html': personality.description
       });
 
+      $details = $('<details>', { 'class': classes('answers-summary') });
+      $detailsSummary = $('<summary>Réponses données</summary>');
+      $details.append($detailsSummary);
+      $detailsDl = $('<dl>');
+      $details.append($detailsDl);
+      for (const [question, answer] of Object.entries(self.answersPerQuestion)) {
+        $detailsDl.append($(`<dt>${question}</dt>`));
+        $detailsDl.append($(`<dd>${answer}</dd>`));
+      }
+
       // NOTE (Emil): We only create $personality element if it has at least
       // one child element.
       if (hasTitle || hasImage || hasDescription) {
@@ -626,6 +640,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
         $personality.append($title);
         $personality.append($image);
         $personality.append($description);
+        $personality.append($details);
       }
 
       quiz.$resultWrapper.append($personality);
@@ -648,7 +663,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       $button.on('animationend', function () {
         $(this).removeClass(animationClass);
         $(this).off('animationend');
-        self.trigger('personality-quiz-answer', personalities);
+        self.trigger('personality-quiz-answer', { answerText: $button.textContent, personalities });
       });
     }
 
@@ -659,7 +674,8 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       @param {Object[]} personalities The personalities associated with the $button
     */
     function nonAnimatedButtonListener($button, personalities) {
-      self.trigger('personality-quiz-answer', personalities);
+      var questionText = $button.parents('.h5p-personality-quiz-slide').children("h2").text();
+      self.trigger('personality-quiz-answer', { questionText, answerText: $button.text(), personalities });
     }
 
 
@@ -879,8 +895,8 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
     */
     self.setResult = function (personality) {
       var $personality;
-      var backgroundImage = (personality.image.file) && self.resultImagePosition === 'background';
-      var inlineImage     = (personality.image.file) && self.resultImagePosition === 'inline';
+      var backgroundImage = (personality.image && personality.image.file) && self.resultImagePosition === 'background';
+      var inlineImage     = (personality.image && personality.image.file) && self.resultImagePosition === 'inline';
 
       if (self.$canvas) {
         self.wheel.attach(self.$canvas[0]);
@@ -928,10 +944,10 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       with the current question number and the question total.
     */
     self.updateProgress = function () {
-      var percentage = 100 - (self.answered) * self.slidePercentage;
+      var percentage = 100 - (self.answered()) * self.slidePercentage;
 
       var text = interpolate(self.progressText, {
-        'question': self.answered + 1,
+        'question': self.answered() + 1,
         'total': self.numQuestions
       });
 
@@ -945,7 +961,7 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       triggers 'personality-quiz-completed' event upon completion.
     */
     self.next = function () {
-      var answeredAllQuestions = (self.answered === self.numQuestions);
+      var answeredAllQuestions = (self.answered() === self.numQuestions);
 
       var $prev = self.$slides.eq(self.index);
       var $curr = self.$slides.eq(self.index + 1);
@@ -986,14 +1002,10 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       $target = (isButton || isImage) ? $target.parent() : $target;
 
       personalities = $target.attr('data-personality');
+      buttonListener  = animation ? animatedButtonListener : nonAnimatedButtonListener;
+      buttonListener($button, personalities);
 
-      if (personalities) {
-        buttonListener  = animation ? animatedButtonListener : nonAnimatedButtonListener;
-
-        buttonListener($button, personalities);
-
-        $target.parent(prefix('answers')).off('click');
-      }
+      $target.parent(prefix('answers')).off('click');
     };
 
     /**
@@ -1002,8 +1014,12 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
     self.reset = function () {
       self.personalities.map(function (e) { e.count = 0; });
       self.index = 0;
-      self.answered = 0;
+      self.answersPerQuestion = {};
       self.completed = false;
+    };
+
+    self.answered = function () {
+      return Object.keys(self.answersPerQuestion).length;
     };
 
     /**
@@ -1020,20 +1036,20 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
       up all personalities in the answer matching the given personalities.
     */
     self.on('personality-quiz-answer', function (event) {
-      var answers;
+      var eventData, answerPersonalities;
 
       if (event !== undefined && event.data !== undefined) {
-        answers = event.data.split(', ');
-
-        answers.forEach(function (answer) {
+        eventData = event.data;
+        self.answersPerQuestion[eventData.questionText] = eventData.answerText;
+        
+        answerPersonalities = eventData.personalities.split(',').map(p => p.trim());
+        answerPersonalities.forEach(function (answerPersonality) {
           self.personalities.forEach(function (personality) {
-            if (personality.name === answer) {
+            if (personality.name === answerPersonality) {
               personality.count++;
             }
           });
         });
-
-        self.answered += 1;
       }
 
       self.next();

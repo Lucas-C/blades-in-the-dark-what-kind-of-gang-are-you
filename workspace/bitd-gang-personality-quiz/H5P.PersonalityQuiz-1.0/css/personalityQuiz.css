@@ -203,7 +203,7 @@ button.h5p-personality-quiz {
   margin: 0.5em auto;
   width: 80%;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .h5p-personality-quiz .h5p-personality-quiz-row {
@@ -288,6 +288,15 @@ button.h5p-personality-quiz {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.h5p-personality-quiz .h5p-personality-quiz-answers-summary {
+  max-height: 50vh;
+  overflow: scroll;
+}
+
+.h5p-personality-quiz .h5p-personality-quiz-answers-summary dt {
+  font-weight: bold;
 }
 
 .h5p-personality-quiz .h5p-personality-quiz-center-personality {

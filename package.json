@@ -20,7 +20,7 @@
     "gulp-uglify": "^3.0.1"
   },
   "scripts": {
-    "start": "gulp demo"
+    "start": "gulp start"
   },
   "repository": {
     "type": "git",
